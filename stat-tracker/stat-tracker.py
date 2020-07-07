@@ -22,6 +22,18 @@ def process_text(img):
     return names
 
 
+def process_numbers(img):
+    numbers = []
+    conf = r'--oem 3 --psm 6 outbase digits'
+    data = pytesseract.image_to_data(img, config=conf)
+    for x, d in enumerate(data.splitlines()):
+        if x != 0:
+            d = d.split()
+            if len(d) == 12:
+                numbers.append(d[11])
+
+    return numbers
+
 
 def show_img(img):
     cv2.imshow('Result', img)
@@ -30,6 +42,7 @@ def show_img(img):
 
 img = read_img()
 print(process_text(img))
+# print(process_numbers(img))
 show_img(img)
 
 
