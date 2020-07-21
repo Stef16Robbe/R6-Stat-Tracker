@@ -8,3 +8,13 @@ C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker
 C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6-Stat-Tracker-GUI.csproj.CoreCompileInputs.cache
 C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6-Stat-Tracker-GUI.exe
 C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6-Stat-Tracker-GUI.pdb
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\bin\Debug\R6-Stat-Tracker-GUI.exe.config
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\bin\Debug\R6-Stat-Tracker-GUI.exe
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\bin\Debug\R6-Stat-Tracker-GUI.pdb
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6-Stat-Tracker-GUI.csprojAssemblyReference.cache
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6_Stat_Tracker_GUI.Form1.resources
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6_Stat_Tracker_GUI.Properties.Resources.resources
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6-Stat-Tracker-GUI.csproj.GenerateResource.cache
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6-Stat-Tracker-GUI.csproj.CoreCompileInputs.cache
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6-Stat-Tracker-GUI.exe
+C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\R6-Stat-Tracker-GUI\R6-Stat-Tracker-GUI\obj\Debug\R6-Stat-Tracker-GUI.pdb

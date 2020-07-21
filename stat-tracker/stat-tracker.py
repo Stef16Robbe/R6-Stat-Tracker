@@ -1,10 +1,14 @@
 from PIL import Image
 import cv2
 import pytesseract
+import os
 
-original_path = r"C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\stat-tracker\Image1.png"
-path_to_names = r"C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\stat-tracker\Crops\names.png"
-path_to_scores = r"C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\stat-tracker\Crops\scores.png"
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+current_path = os.path.dirname(__file__)
+original_path = os.sys.argv[1]
+path_to_names = current_path + "/Crops/names.png"
+path_to_scores = current_path + "/Crops/scores.png"
 
 def create_readable_img():
     img = Image.open(original_path)
