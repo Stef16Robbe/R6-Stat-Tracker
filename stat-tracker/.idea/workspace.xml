@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10677f22-fcad-484c-9250-d103e920b1fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Images/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stat-tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/stat-tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,19 +23,45 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1eMd2PTBUhwSnhyNIK0WaPA5iBF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/stat-tracker.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images/test2.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="image" type="PythonConfigurationType" factoryName="Python">
+      <module name="stat-tracker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Stef\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Images" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Images/image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="stat-tracker" type="PythonConfigurationType" factoryName="Python">
       <module name="stat-tracker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,6 +84,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="stat-tracker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Stef\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Images" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Images/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.stat-tracker" />
+      <item itemvalue="Python.image" />
+      <item itemvalue="Python.test" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,47 +124,88 @@
       <updated>1594135187254</updated>
       <workItem from="1594135188392" duration="4877000" />
       <workItem from="1594143645167" duration="84000" />
+      <workItem from="1594147990321" duration="1320000" />
+      <workItem from="1594202862152" duration="566000" />
+      <workItem from="1594203671560" duration="2740000" />
+      <workItem from="1594210861509" duration="35000" />
+      <workItem from="1594211750913" duration="1889000" />
+      <workItem from="1594214760574" duration="740000" />
+      <workItem from="1594289334472" duration="5474000" />
+      <workItem from="1594301271819" duration="23000" />
+      <workItem from="1594301324292" duration="6584000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594135442051">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594308646324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594135442051" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594135440128">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594301870171" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594308646324" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594309088332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594135440128" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594143728332">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594309088332" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594308554298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594136456362" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594143728332" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594143728332">
+    <state x="740" y="275" key="FileChooserDialogImpl/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594301869088" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594308554298" />
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1594309614814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594136456362" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594143728332" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594143728332">
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594304227697" />
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594309614814" />
+    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1594309614814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594136456362" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594143728332" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594143728332">
+    <state width="1877" height="235" key="GridCell.Tab.0.center/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594304227696" />
+    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594309614814" />
+    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1594309614814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594136456362" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594143728332" />
+    <state width="1877" height="235" key="GridCell.Tab.0.left/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594304227696" />
+    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594309614814" />
+    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1594309614814">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="235" key="GridCell.Tab.0.right/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594304227697" />
+    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594309614814" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1594297764871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594297764871" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594210532036" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1594297764871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594297764871" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594210532036" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1594297764871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594297764871" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594210532035" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1594297764871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594297764871" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1200.0.1200.1880@0.0.1920.1040" timestamp="1594210532036" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1594135498507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/-1200.0.1200.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594135498507" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/stat_tracker$stat_tracker.coverage" NAME="stat-tracker Coverage Results" MODIFIED="1594143723129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/stat_tracker$image.coverage" NAME="image Coverage Results" MODIFIED="1594301519135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Images" />
+    <SUITE FILE_PATH="coverage/stat_tracker$test.coverage" NAME="test Coverage Results" MODIFIED="1594309609386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Images" />
+    <SUITE FILE_PATH="coverage/stat_tracker$stat_tracker.coverage" NAME="stat-tracker Coverage Results" MODIFIED="1594296192373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/stat_tracker$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1594308575631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Images" />
   </component>
 </project>
