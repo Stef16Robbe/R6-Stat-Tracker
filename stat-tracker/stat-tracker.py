@@ -2,9 +2,9 @@ from PIL import Image
 import cv2
 import pytesseract
 
-original_path = "Image1.png"
-path_to_names = "Crops/names.png"
-path_to_scores = "Crops/scores.png"
+original_path = r"C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\stat-tracker\Image1.png"
+path_to_names = r"C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\stat-tracker\Crops\names.png"
+path_to_scores = r"C:\Users\Stef\Documents\GitHub Projects\Personal\R6-Stat-Tracker\stat-tracker\Crops\scores.png"
 
 def create_readable_img():
     img = Image.open(original_path)
