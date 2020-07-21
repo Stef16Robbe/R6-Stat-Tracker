@@ -3,12 +3,10 @@ import cv2
 import pytesseract
 
 original_path = "Image1.png"
-new_path_1 = "Crops/Image-Final1.png"
-new_path_2 = "Crops/Image-Final2.png"
-new_path_3 = "Crops/Image-Final3.png"
+path_to_names = "Crops/names.png"
+path_to_scores = "Crops/scores.png"
 
 def create_readable_img():
-    # Get original
     img = Image.open(original_path)
 
     # 1st crop
@@ -17,15 +15,14 @@ def create_readable_img():
 
     # 2nd crop
     area = (0, 0, 170, 580)
-    cropped_img1 = img.crop(area)
-
+    names = img.crop(area)
 
     # 3rd crop
     area = (680, 0, 1085, 580)
-    cropped_img2 = img.crop(area)
+    scores = img.crop(area)
 
-    cropped_img1.save(new_path_2)
-    cropped_img2.save(new_path_3)
+    names.save(path_to_names)
+    scores.save(path_to_scores)
 
 
 def read_score(img_path):
@@ -39,8 +36,8 @@ def read_score(img_path):
 
 create_readable_img()
 
-all_player_names = read_score(new_path_2)
-all_player_scores = read_score(new_path_3)
+all_player_names = read_score(path_to_names)
+all_player_scores = read_score(path_to_scores)
 
 print(all_player_names)
 print(all_player_scores)
