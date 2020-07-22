@@ -78,6 +78,12 @@ def combine_names_scores():
 
     return scores_final
 
+def print_names_scores():
+    for score in scores_final:
+        for s in score:
+            print(s)
+            
+
 
 create_readable_img()
 
@@ -87,4 +93,6 @@ all_player_scores = tesseract_read(path_to_scores)
 names = get_names(all_player_names)
 scores = get_scores(all_player_scores)
 
-print(combine_names_scores())
+scores_final = combine_names_scores()
+
+print_names_scores()
