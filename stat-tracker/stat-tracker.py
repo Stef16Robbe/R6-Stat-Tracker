@@ -1,10 +1,16 @@
 from PIL import Image
 import cv2
 import pytesseract
+import os
 
-original_path = "Image1.png"
-path_to_names = "Crops/names.png"
-path_to_scores = "Crops/scores.png"
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+current_path = os.path.dirname(__file__)
+original_path = os.sys.argv[1]
+# original_path = r"C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\stat-tracker\Image1.png"
+
+path_to_names = current_path + "/Crops/names.png"
+path_to_scores = current_path + "/Crops/scores.png"
 
 def create_readable_img():
     img = Image.open(original_path)
@@ -44,19 +50,23 @@ def get_names(names):
     return all_names
 
 def get_scores(scores):
+    scores = scores.splitlines()
+
     all_scores = []
     score = []
-    i = 0
-    for x, b in enumerate(scores.splitlines()):
+    first = True
+
+    for x, b in enumerate(scores):
         if x != 0:
             b = b.split()
             if len(b) == 12:
-                if i == 4:
+                if len(str(b[11])) > 2 and first == False or x == len(scores) - 1:
+                    if x == len(scores) - 1:
+                        score.append(str(b[11]))
                     all_scores.append(score)
                     score = []
-                    i = 0
                 score.append(str(b[11]))
-                i += 1
+                first = False
 
     return all_scores
 
@@ -74,6 +84,12 @@ def combine_names_scores():
 
     return scores_final
 
+def print_names_scores():
+    for score in scores_final:
+        for s in score:
+            print(s)
+            
+
 
 create_readable_img()
 
@@ -83,4 +99,6 @@ all_player_scores = tesseract_read(path_to_scores)
 names = get_names(all_player_names)
 scores = get_scores(all_player_scores)
 
-print(combine_names_scores())
+scores_final = combine_names_scores()
+
+print_names_scores()
