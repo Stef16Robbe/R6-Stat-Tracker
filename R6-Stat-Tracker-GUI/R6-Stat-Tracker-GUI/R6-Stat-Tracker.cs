@@ -31,14 +31,14 @@ namespace R6_Stat_Tracker_GUI
                         ExecPyProcess(imageLocation);
                     } else
                     {
-                        throw new Exception();
+                        throw new Exception("test");
                     }
 
                 }
             }
-            catch (Exception)
+            catch (Exception exc)
             {
-                MessageBox.Show("An Error Ocurred", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(exc.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -108,17 +108,17 @@ namespace R6_Stat_Tracker_GUI
             {
                 if (count == 5)
                 {
-                    players.Add(new Player() { Name = scores[i - 5], Score = int.Parse(scores[i - 4]), Kills = int.Parse(scores[i - 3]), Assists = int.Parse(scores[i - 2]), Deaths = int.Parse(scores[i - 1])});
+                    players.Add(new Player() { Name = scores[i - 5], Score = int.Parse(scores[i - 4]), Kills = int.Parse(scores[i - 3]), Assists = int.Parse(scores[i - 2]), Deaths = int.Parse(scores[i - 1]) });
                     count = 0;
+                }
+                else if (i == scores.Length - 1)
+                {
+                    players.Add(new Player() { Name = scores[i - 4], Score = int.Parse(scores[i - 3]), Kills = int.Parse(scores[i - 2]), Assists = int.Parse(scores[i - 1]), Deaths = int.Parse(scores[i]) });
                 }
                 count++;
             }
+
             dataGridView1.DataSource = players;
-        }
-
-        private void lblUpload_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
