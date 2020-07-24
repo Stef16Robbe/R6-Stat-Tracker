@@ -7,7 +7,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 current_path = os.path.dirname(__file__)
 original_path = os.sys.argv[1]
-# original_path = r"C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\stat-tracker\Image1.png"
+# original_path = r"C:\Users\Stef Robbe\Documents\GitHub projects\Personal\R6-Stat-Tracker\stat-tracker\Image4.png"
 
 path_to_names = current_path + "/Crops/names.png"
 path_to_scores = current_path + "/Crops/scores.png"
@@ -16,15 +16,11 @@ def create_readable_img():
     img = Image.open(original_path)
 
     # 1st crop
-    area = (465, 390, 1550, 970)
-    img = img.crop(area)
-
-    # 2nd crop
-    area = (0, 0, 170, 580)
+    area = (463, 390, 720, 960)
     names = img.crop(area)
 
-    # 3rd crop
-    area = (680, 0, 1085, 580)
+    # 2nd crop
+    area = (1150, 400, 1540, 970)
     scores = img.crop(area)
 
     names.save(path_to_names)
